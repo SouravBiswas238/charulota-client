@@ -1,6 +1,6 @@
 ## Charulata project
 
-- clone this project https://github.com/tanvirgithub21/Charulata-Project.git
+- clone this project https://github.com/SouravBiswas238/charulota-client.git
 - Open terminal then run npm install or yarn
-- Switch to your git branch using git checkout b branch_name
-"# charulota-client" 
+
+## live link(https://classy-bublanina-4bfdfe.netlify.app/)
