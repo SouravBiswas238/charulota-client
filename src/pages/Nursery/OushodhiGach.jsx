@@ -1,0 +1,16 @@
+import React from 'react';
+import NurseryBanner from '../../shear_component/Nursery/NurseryBanner';
+import RouteFilterdNavbar from '../../shear_component/Nursery/RouteFilterdNavbar';
+
+const OushodhiGach = () => {
+    return (
+        <div>
+        {/* sheard component for banner */}
+        <NurseryBanner pageName='ঔষধি গাছ' />
+        {/* Filterd navigation bar and product */}
+        <RouteFilterdNavbar />
+    </div>
+    );
+};
+
+export default OushodhiGach;

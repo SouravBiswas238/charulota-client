@@ -1,0 +1,62 @@
+.card-shadow {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.12);
+}
+
+.cart-icons {
+  opacity: 0;
+  transform: translateX(20px) translateZ(0);
+  transition: all 0.4s;
+}
+
+.sm-cart-icons {
+  opacity: 0;
+  transform: translateY(20px) translateZ(0);
+  transition: all 0.4s;
+}
+
+.card-parent:hover .cart-icons {
+  opacity: 1;
+  right: 10px;
+  transform: translateY(0) translateZ(0);
+  transition: all 0.4s;
+}
+
+.card-parent:hover .sm-cart-icons {
+  opacity: 1;
+  bottom: 80px;
+  transform: translateY(0) translateZ(0);
+  transition: all 0.4s;
+}
+
+.hover-image {
+  opacity: 0;
+  visibility: hidden;
+  transition: all ease-in-out 0.4s;
+}
+
+.card-parent:hover .hover-image {
+  opacity: 1;
+  visibility: visible;
+}
+
+.card-parent:hover .hover-image {
+  transform: scale(1.05);
+  transition: all ease-in-out 0.6s;
+}
+
+@media (max-width: 640px) {
+  .card-parent:hover .sm-cart-icons {
+    opacity: 1;
+    bottom: 70px;
+    transform: translateY(0) translateZ(0);
+    transition: all 0.4s;
+  }
+
+  .sm-cart-icons {
+    opacity: 1;
+    bottom: 70px;
+    border-radius: 30px;
+    transform: translateY(0px) translateZ(0);
+    transition: all 0.4s;
+  }
+}
